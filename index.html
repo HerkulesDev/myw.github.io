@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biography Site</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-image: url('https://th.bing.com/th/id/R.af4e6470f8852e5264129f5db808aeb0?rik=2LgKjXmaiSY4cw&pid=ImgRaw&r=0'); /* Dağ resmini arka plan olarak ekledik */
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .content {
+            text-align: center;
+            color: white; /* Metin rengini beyaz yapar */
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.7); /* Gri kutunun arka plan rengini belirtir */
+            border-radius: 20px; /* Gri kutunun köşelerini yuvarlatır */
+            border: 2px solid #333; /* Gri kutunun çerçevesini belirledik */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Gri kutuya hafif bir gölge ekler */
+        }
+        .content-inner {
+            padding: 20px;
+        }
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+        .name {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+        .bio {
+            font-size: 1.2rem;
+            line-height: 1.6;
+        }
+        .social-icons {
+            margin-top: 20px;
+        }
+        .social-icons a {
+            display: inline-block;
+            margin: 0 10px;
+            text-decoration: none;
+            color: white;
+            font-size: 1.5rem;
+        }
+        .rain-sound {
+            margin-top: 20px;
+            text-align: center;
+            color: #ffffff; /* Yağmur sesi yazısının rengini beyaz yapar */
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <div class="content-inner">
+            <img class="profile-pic" src="https://r2.guns.lol/b7332e87-54b7-4238-b298-9a80b9ca1900.png" alt="Profil Fotoğrafı">
+            <h1 class="name">myw</h1>
+            <p class="bio">NEIN NEIN</p>
+            <div class="social-icons">
+                <a href="https://www.roblox.com/users/4339668619/profile" target="_blank">Roblox</a>
+                <a href="https://github.com/HerkulesDev" target="_blank">GitHub</a>
+            </div>
+            <div class="rain-sound">
+                Yağmur yağıyor...
+            </div>
+        </div>
+    </div>
+</body>
+</html>
